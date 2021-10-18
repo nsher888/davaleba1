@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Gym Membership Form</title>
+</head>
+<body>
+    <section class="wrapper">
+        <h1 class="title">Gym Membership Frorm</h1>
+        <img src="/img/image04.jpeg" width="600" height="300">
+        <p>Want to bcome a member of our Gym? Then start by filling our form to complete registration. We will contact you shortly to notify you about your membership card</p>
+        <form>
+            <div class="name">
+                <p>Name</p>
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="First">
+
+                <label for="lastname"></label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last">
+            </div>
+
+            <p>Gender</p>
+            <div class="gender-box">
+                <input type="radio" name="gender" id="male" value="male"/>
+                <label for="male">Male</label>
+                
+                <input type="radio" name="gender" id="female" value="female"/>
+                <label for="female">Female</label>
+             </div>
+
+            <label for="c-weight">Your current weight</label>
+            <input type="text" name="c-weight" id="c-weight">
+
+            <label for="d-weight">Desired weight</label>
+            <input type="text" name="d-weight" id="d-weight">
+
+            <label for="height">Height</label>
+            <input type="text" name="height" id="height">
+
+            <div class="Home address">
+                <p>Home adress</p>
+                <label for="street-address"></label>
+                <input type="text" name="street-address" id="street-address" placeholder="Street address">
+
+                <label for="city"></label>
+                <input type="text" name="city" id="city" placeholder="City">
+
+                
+            <label for="standart-select"></label>
+            <div class="select">
+                <select id="standart-select">
+                    <option value="" disabled selected>Country</option>
+                    <option value="georgia">Georgia</option>
+                    <option value="us">US</option>
+                    <option value="UK">United kingdom</option>
+                    <option value="france">France</option>
+                </select>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone">
+
+            <p>Have you been in a Gym before</p>
+            <input type="radio" name="history" id="yes" value="yes"/>
+            <label for="yes">Yes</label>
+            
+            <input type="radio" name="history" id="no" value="no"/>
+            <label for="no">No</label>
+
+            <p>Membership Type</p>
+            <input type="checkbox" value="Regular">Regular
+            </label>
+            <label>
+            <input type="checkbox" value="Pro">Pro
+            </label>
+            <label>
+            <input type="checkbox" value="VIP">VIP
+            </label>
+            <p>Add comment</p>
+            <textarea class="textarea"></textarea>
+
+            <input type="submit" name="apply" value="Apply" class="submitt-btn">
+        </form>
+    </section>
+</body>
+</html>

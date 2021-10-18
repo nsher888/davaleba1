@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #bee6fd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px gray;
+}
+
+.title {
+  font-size: 35px;
+}
+
+input[type="text"],
+[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  display: inline-block;
+}
+
+.gender-box {
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  padding: 15px;
+  display: inline-block;
+}
+
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type="email"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.name {
+  padding-top: 5px;
+}
+.textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1;
+  height: 150px;
+  resize: vertical;
+}
+
+.textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  width: 100%;
+  outline: none;
+}
+
+.select {
+  appearance: none;
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 15px 0;
+}
+
+.submitt-btn {
+  text-align: center;
+  color: white;
+  background-color: #285088;
+  margin-top: 15;
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.submitt-btn:hover {
+  color: #285088;
+  background-color: white;
+}
