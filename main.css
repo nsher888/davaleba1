@@ -38,11 +38,13 @@ input[type="radio"] {
 input[type="text"]:focus {
   background-color: #ddd;
   outline: none;
+  -webkit-appearance: none;
 }
 
 input[type="email"]:focus {
   background-color: #ddd;
   outline: none;
+  -webkit-appearance: none;
 }
 
 .name {
@@ -59,6 +61,7 @@ input[type="email"]:focus {
 .textarea:focus {
   background-color: #ddd;
   outline: none;
+  -webkit-appearance: none;
 }
 
 select {
