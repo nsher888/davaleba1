@@ -46,7 +46,7 @@ nav .logo p {
 }
 
 .banner {
-  background-image: url(/img/gym.jpeg);
+  background-image: url(img/gym.jpeg);
   height: 600px;
   background-size: cover;
   background-position: center;
