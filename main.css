@@ -18,6 +18,14 @@ body {
   font-size: 35px;
 }
 
+.hp-link {
+  text-decoration: none;
+  margin-top: 5px;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+}
+
 input[type="text"],
 [type="email"] {
   width: 100%;
